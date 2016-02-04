@@ -1,0 +1,49 @@
+$footer-background-color: #414141;
+$footer-color: #bbb;
+
+footer {
+  margin-top: 4rem;
+  background-color: $footer-background-color;
+
+  a {
+    color: $footer-color;
+    &:hover {
+      color: lighten($footer-color, 15%);
+    }
+    &:active {
+      color: darken($footer-color, 15%);
+    }
+  }
+}
+
+.copyright {
+  color: darken($footer-color, 15%);
+  margin-top: 3rem;
+}
+
+.social {
+  background-color: lighten($footer-background-color, 15%);
+  color: lighten($footer-color, 15%);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-left: -3rem;
+  li {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+}
+
+.nav-secondary ul li {
+  display: inline-block;
+  width: 45%;
+  // Add a small arrow before each footer navigation item
+  &::before {
+    color: $footer-color;
+    content: "› ";
+  }
+}

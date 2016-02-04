@@ -1,0 +1,5 @@
+sass:
+  style: compressed
+exclude:
+  - README.md
+  - LICENSE.md

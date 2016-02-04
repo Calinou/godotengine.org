@@ -1,0 +1,31 @@
+.jumbotron,
+.jumbotron-filter {
+  height: 30rem;
+}
+
+.jumbotron {
+  background-image: url("../media/home/background.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 6rem 0 3rem 0;
+  h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+.jumbotron-filter {
+  position: absolute;
+  // HACK: Actual width should be a bit less than 100% the width of the window
+  width: calc(100vw - 0.75rem);
+  background-color: hsla(205, 75%, 35%, 0.8);
+}
+
+@media (max-width: 35rem) {
+  .jumbotron,
+  .jumbotron-filter {
+    height: 40rem;
+  }
+  .jumbotron .button {
+    display: block;
+  }
+}

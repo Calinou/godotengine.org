@@ -1,0 +1,97 @@
+// _home.scss: Styles specific to the home page
+
+$feature-design-background-image: url("../media/home/design.jpg");
+$feature-2d-background-image: url("../media/home/2d.jpg");
+$feature-3d-background-image: url("../media/home/3d.jpg");
+$feature-script-background-image: url("../media/home/script.png");
+$feature-editor-background-image: url("../media/home/editor.jpg");
+$feature-deploy-background-image: url("../media/home/deploy.jpg");
+
+.highlights {
+  margin-top: 2rem;
+}
+
+.intro {
+  font-size: 1.4rem;
+}
+
+.news-list h2 {
+  text-transform: uppercase;
+}
+
+//////////
+// News //
+//////////
+
+.news {
+  margin-top: 1.25rem;
+}
+
+.news-date {
+  color: #666;
+}
+
+.news-title {
+  font-weight: 600;
+}
+
+.more-news {
+  margin-top: 2.5rem;
+  display: inline-block;
+}
+
+///////////////////
+// Feature tiles //
+///////////////////
+
+.features {
+  margin-top: 6rem;
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+.feature {
+  height: 16rem;
+  color: #fff;
+  background-size: cover;
+  font-size: 90%;
+  a {
+    font-weight: 600;
+  }
+  h3 {
+    margin-top: 6rem;
+  }
+}
+
+.feature-design {
+  background-image: $feature-design-background-image;
+}
+
+.feature-2d {
+  background-image: $feature-2d-background-image;
+}
+
+.feature-3d {
+  background-image: $feature-3d-background-image;
+}
+
+.feature-script {
+  background-image: $feature-script-background-image;
+}
+
+.feature-editor {
+  background-image: $feature-editor-background-image;
+}
+
+.feature-deploy {
+  background-image: $feature-deploy-background-image;
+}
+
+//////////////////////////
+// Get Involved section //
+//////////////////////////
+
+.get-involved h3 {
+  text-align: center;
+}
