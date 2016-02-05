@@ -1,0 +1,33 @@
+$feature-card-left-background-color: #393939;
+$feature-card-right-background-color: #2977af;
+$gradient-intensity: 11%;
+$feature-card-left-background: linear-gradient(0deg, $feature-card-left-background-color, lighten($feature-card-left-background-color, $gradient-intensity));
+$feature-card-right-background: linear-gradient(0deg, $feature-card-right-background-color, lighten($feature-card-right-background-color, $gradient-intensity));
+$feature-card-color: #fff;
+
+.feature-card {
+  height: 28rem;
+  font-size: 90%;
+  color: #fff;
+  li {
+    margin-left: -1.5rem;
+  }
+  hr {
+    color: #fff;
+    border-top: none;
+  }
+}
+
+@media (max-width: 80rem) {
+  .feature-card {
+    height: 32rem;
+  }
+}
+
+.feature-card-left {
+  background: $feature-card-left-background;
+}
+
+.feature-card-right {
+  background: $feature-card-right-background;
+}

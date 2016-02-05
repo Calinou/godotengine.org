@@ -44,6 +44,6 @@ footer {
   // Add a small arrow before each footer navigation item
   &::before {
     color: $footer-color;
-    content: "› ";
+    content: "\203a  ";
   }
 }

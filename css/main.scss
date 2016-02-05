@@ -2,11 +2,12 @@
 # This ensures Jekyll reads this file
 ---
 
-@import "jumbotron";
-@import "buttons";
-@import "home";
-@import "navigation";
-@import "footer";
+@import "jumbotron";  // Jumbotron styles
+@import "buttons";    // Button styles
+@import "home";       // Styles specific to the Home page
+@import "navigation"; // Navigation bar styles
+@import "footer";     // Footer styles
+@import "features";   // Styles specific to the Features page
 
 $primary-color: #468cbf;
 
@@ -52,4 +53,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+// Title at the beginning of each page: add a margin so that it's visible
+.intro-title {
+  margin-top: 6rem;
+  margin-left: 6rem;
 }
