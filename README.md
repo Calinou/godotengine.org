@@ -1,4 +1,4 @@
-# godotengine.org (unofficial)
+# godotengine.org
 
 A redesign of the [Godot Engine](http://godotengine.org) website.
 
@@ -17,5 +17,12 @@ automatically when there are any changes.
 
 ## License
 
+### Code
+
 Copyright (c) 2016 Calinou and contributors  
-Licensed under MIT for code, CC BY 3.0 Unported for content.
+Licensed under the MIT License, see `LICENSE.md`.
+
+### Content
+
+Copyright (c) 2014-2016 Juan Linietsy, Ariel Manzur and the Godot community  
+Licensed under [CC BY 3.0 Unported](http://creativecommons.org/licenses/by/3.0/).

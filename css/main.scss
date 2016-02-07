@@ -8,6 +8,7 @@
 @import "navigation"; // Navigation bar styles
 @import "footer";     // Footer styles
 @import "features";   // Styles specific to the Features page
+@import "download";  // Styles specific to the Download page
 
 $primary-color: #468cbf;
 
@@ -24,21 +25,35 @@ $primary-color: #468cbf;
 body {
   cursor: default;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  font-size: 1.25rem;
-  background-color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+  background-color: #f2f2f2;
   color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
 }
 
 p,
 li {
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+p {
   text-align: justify;
 }
 
 a {
   text-decoration: none;
   color: $primary-color;
+  font-weight: 600;
   transition: .15s;
   &:hover {
     color: lighten($primary-color, 10%);
@@ -58,5 +73,4 @@ a {
 // Title at the beginning of each page: add a margin so that it's visible
 .intro-title {
   margin-top: 6rem;
-  margin-left: 6rem;
 }

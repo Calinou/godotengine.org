@@ -14,6 +14,12 @@ footer {
       color: darken($footer-color, 15%);
     }
   }
+
+  h4 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+  }
 }
 
 .copyright {

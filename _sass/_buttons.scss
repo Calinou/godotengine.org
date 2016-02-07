@@ -4,7 +4,8 @@ $button-info-color: #468cbf;
 .button {
   padding: 0.75rem;
   color: #fff !important;
-  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   transition: 0.15s;
   .fa {
